@@ -1,0 +1,213 @@
+/* Making the pages friendly to most common devices' screens & need to add more breakpoints */
+@media all and (max-width: 1440px) and (min-width: 320px) {/* */
+
+  /* Both for home page, moments page, who am i page and contact page,*/
+  body {
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    font-family: Palatino Linotype, serif;
+  }
+
+  .fixed {
+    position: fixed;
+  }
+}
+
+@media all and (max-width: 1440px) and (min-width: 320px) {
+  .web-head {
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+  }
+
+  li {
+    display: inline;
+  }
+
+  ul {
+    float: right;
+    padding-left: 650px;
+  }
+
+  h1 {
+    display: inline;
+    pa
+  }
+
+  h1 a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 0 10px;
+    text-align: left;
+  }
+
+  .web-head ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 0 10px;
+  }
+
+  /* Mid-section */
+  .content {
+    /*background-color: black;*/
+    padding: 100px 20px 20px 20px;
+    font-family: Papyrus, fantasy;
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+}
+
+@media all and (max-width: 1440px) and (min-width: 320px) {
+  /* For aligning WELCOME TO MY PAGE */
+  #w1 {
+    text-align: left;
+    float right;
+    padding-top: 100px;
+    padding-left: 160px;
+  }
+  #w2 {
+    text-align: left;
+    float right;
+    padding-top: 100px;
+    padding-left: 460px;
+  }
+  #w3 {
+    text-align: left;
+    float right;
+    padding-top: 100px;
+    padding-left: 660px;
+  }
+  #w4 {
+    text-align: left;
+    float right;
+    padding-top: 100px;
+    padding-left: 860px;
+  }
+
+  /* Profile Pic Location */
+  .pic {
+    padding-left: 80%;
+    padding-top: 30px;
+    /*padding-top: 20%;*/
+    text-align: center;
+    transform-style: preserve-3d;
+    /*clear right;*/
+  }
+
+  /* Profile Pic Shape */
+  .ppic {
+    border-radius: 70%;
+    border-top-right-radius: 150%;
+    border-bottom-left-radius: 500%;
+  }
+
+  /* For Contact Box */
+  .contact {
+    font-family: Palatino Linotype, serif;
+    background-color: grey;
+    position: fixed;
+    margin-left: 0;
+    bottom: 0;
+    left: 0;
+    padding: 8px 24px;
+  }
+  .contact p a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 0 10px;
+  }
+
+  /* For contact page */
+  #info {
+    text-align: center;
+    padding-top: 200px;
+    font-style: oblique;
+    color: black;
+    font-weight: bolder;
+  }
+
+  /* For Moments */
+  #fruit_pics {
+    text-align: center;
+    padding-top: 200px;
+  }
+
+  /* For Who Am I? page*/
+  #cmb {
+    text-align: center;
+    padding-top: 200px;
+  }
+}
+
+/*
+will include this during next update
+.heading {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+header {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}
+
+body {
+
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.darkblue {
+  color: darkblue;
+}
+
+.intCarInd{
+  font-family: Palatino Linotype, fantasy;
+  font-weight: bold;
+  text-align: left;
+  color: green;
+  background-color: black;
+}
+
+.education{
+  font-family: Palatino Linotype, fantasy;
+  font-weight: bold;
+  text-align: left;
+  color: blue;
+  background-color: black;
+}
+
+.skills{
+  font-family: Palatino Linotype, fantasy;
+  font-weight: bold;
+  text-align: left;
+  color: orange;
+  background-color: black;
+}
+
+.contact {
+  color: grey;
+  background-color: white;
+  font-family: Palatino Linotype, fantasy;
+  font-weight: bold;
+  text-align: left;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: red;
+  text-decoration: underline;;
+}
+*/
