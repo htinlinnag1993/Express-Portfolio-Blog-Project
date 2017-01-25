@@ -9,7 +9,7 @@ var port = process.env.PORT || 3000; //for setting up database in Heroku databas
 
 app.set('view engine', 'ejs'); //setting view engine for template using ejs
 app.set('views', './views');
-
+app.use(express.static(__dirname + '/public'));
 //bodyParser for parsing
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded( {extended: false}));
