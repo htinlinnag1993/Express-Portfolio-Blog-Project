@@ -30,6 +30,11 @@ app.get('/projects', function(req, res){
   res.render('projects');
 })
 
+// For Contact Info page
+app.get('/contactInfo', function(req, res){
+  res.render('contactInfo');
+})
+
 // For Blog Home page
 app.get('/blog', function(req, res){
   // below is for setting up database in Heroku database instead of using database in my machine
