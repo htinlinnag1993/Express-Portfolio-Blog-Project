@@ -1,7 +1,13 @@
 /* Making the pages friendly to most common devices' screens & need to add more breakpoints */
 @media all and (max-width: 1440px) and (min-width: 320px) {/* */
 
-  /* Both for home page, moments page, who am i page and contact page,*/
+  /* This style sheet is used in:
+      - Home page,
+      - About page,
+      - Projects page
+      - Blog page,
+      - Contact page,
+  */
   body {
     background-color: orange;
     color: white;

@@ -7,16 +7,32 @@
   <title>Message Board</title>
 </head>
 <body>
-  <h1 class="pageTitile">Messages</h1>
+  <!-- Web-head, Menu-bar & Profile-pic -->
+  <div class="fixed">
+    <div class="web-head">
+      <h1><a href="home.html">Htin Linn Aung</a></h1>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+  <h1 class="pageTitile">Blog Articles</h1>
   <% for (var i=0; i< rows.length; i++){ %>
     <div class="messages" id=<%= "m" + rows[i].id %>>
-      <h3 class="email"><%= rows[i].email %></h3>
-      <h4 class="title"><%= rows[i].title %></h4>
+      <h3 class="title"><%= rows[i].title %></h3>
       <p class="body"><%= rows[i].body %></p>
+      <h4 class="date"><%= rows[i].date %></h4>
     </div>
   <% } %>
   <div class="homeButton">
-    <h1 id="homeButton"><a href= <%="/"%>> Home </h1>
+    <h1 id="homeButton"><a href= <%="/blog"%>> Home </h1>
+  </div>
+  <!-- Contact Box -->
+  <div class="contact">
+    <p><a href="ContactInfo.html">Contact</a></p>
   </div>
 </body>
 </html>
