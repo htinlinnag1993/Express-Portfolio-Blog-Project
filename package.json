@@ -1,0 +1,25 @@
+{
+  "name": "express-portfolio-blog-project",
+  "version": "1.0.0",
+  "description": "my website for final project in TTP pre-training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htinlinnag1993/Express-Portfolio-Blog-Project.git"
+  },
+  "author": "Htin Linn Aung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htinlinnag1993/Express-Portfolio-Blog-Project/issues"
+  },
+  "homepage": "https://github.com/htinlinnag1993/Express-Portfolio-Blog-Project#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "pg": "^6.1.2"
+  }
+}
