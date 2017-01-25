@@ -33,7 +33,7 @@
       <% for (var i=0; i< rows.length; i++){ %>
         <!-- For plain javascript logic codes, only <% %>.
         But for display javascript in HTML tags ,<%= %>. -->
-        <li><a href= <%="/blog_board/#m"+rows[i].blog_id %> > <%= rows[i].title %> </a></li>
+        <li><a href= <%="/blog/content/#m"+rows[i].blog_id %> > <%= rows[i].title %> </a></li>
       <% } %>
     </ul>
   </div>
