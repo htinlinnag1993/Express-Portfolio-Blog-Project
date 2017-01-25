@@ -27,7 +27,7 @@
   </div>
   <h1 class="pageTitle">Blog Articles</h1>
   <% for (var i=0; i< rows.length; i++){ %>
-    <div class="messages" id=<%= "m" + rows[i].id %>>
+    <div class="messages" id=<%= "m" + rows[i].blog_id %>>
       <h3 class="title"><%= rows[i].title %></h3>
       <p class="body"><%= rows[i].body %></p>
       <h4 class="date"><%= rows[i].date %></h4>
