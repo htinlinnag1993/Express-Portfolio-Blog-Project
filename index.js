@@ -17,17 +17,17 @@ app.use(bodyParser.urlencoded( {extended: false}));
 
 // For Home page(landing page)
 app.get('/', function(req, res){
-
+  res.render('home');
 })
 
 // For About page
 app.get('/about', function(req, res){
-
+  res.render('about');
 })
 
 // For Projects page
 app.get('/projects', function(req, res){
-
+  res.render('projects');
 })
 
 // For Blog Home page
