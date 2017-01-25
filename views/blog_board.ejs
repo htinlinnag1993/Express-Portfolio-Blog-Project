@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Message Board</title>
+</head>
+<body>
+  <!-- Web-head, Menu-bar & Profile-pic -->
+  <div class="fixed">
+    <div class="web-head">
+      <h1><a href="home.html">Htin Linn Aung</a></h1>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+  <h1 class="pageTitile">Blog Articles</h1>
+  <% for (var i=0; i< rows.length; i++){ %>
+    <div class="messages" id=<%= "m" + rows[i].id %>>
+      <h3 class="title"><%= rows[i].title %></h3>
+      <p class="body"><%= rows[i].body %></p>
+      <h4 class="date"><%= rows[i].date %></h4>
+    </div>
+  <% } %>
+  <div class="homeButton">
+    <h1 id="homeButton"><a href= <%="/blog"%>> Home </h1>
+  </div>
+  <!-- Contact Box -->
+  <div class="contact">
+    <p><a href="ContactInfo.html">Contact</a></p>
+  </div>
+</body>
+</html>
