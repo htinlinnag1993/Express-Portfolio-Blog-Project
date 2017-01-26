@@ -151,14 +151,17 @@
 
 @media all and (max-width: 1440px) and (min-width: 320px) {
   .test{
-    position: absolute;
+    position: fixed;
+    left: 0px;
+    bottom: 300px;
+    /*position: absolute;*/
     width: 50px;
     height: 50px;
   }
 
-  .box3{
-    /*display: none;*/
-  }
+  /*.box3{
+    display: none;
+  }*/
 
   #d1{
     background-color: #f00;
