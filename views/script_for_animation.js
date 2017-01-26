@@ -1,9 +1,10 @@
 $(document).ready(()=>{
-  $('#d1').on("click", function(){
+  $('#d3').on("click", function(){
     // boxesAppear();
     animateRed();
     animateGreen();
     animateBlue();
+    animateBlog();
   });
 });
 
@@ -21,4 +22,8 @@ function animateGreen(){
 
 function animateBlue(){
   $('#d3').animate({top: Math.floor(Math.random()*100) + "%", left: Math.floor(Math.random()*100) + "%"}, 3000, animateBlue);
+}
+
+function animateBlog(){
+  $('#d4').animate({top: Math.floor(Math.random()*100) + "%", left: Math.floor(Math.random()*100) + "%"}, 3000, animateBlog);
 }
