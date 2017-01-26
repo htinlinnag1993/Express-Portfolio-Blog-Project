@@ -1,5 +1,5 @@
 $(document).ready(()=>{
-  $(document).on("click", function(){
+  $(#animation_click).on("click", function(){
     animateRed();
     animateGreen();
     animateBlue();
