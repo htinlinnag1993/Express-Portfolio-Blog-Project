@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jukebox</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Search Bar to query spotify for tracks -->
+  <div class="spotifySearch">
+    <form class="searchForm" action="javascript:void(0)" method="get">
+      <input type="text" name="search" placeholder="search Spotify" id="search">
+    </form>
+    <h3 class="noResults"></h3>
+  </div>
+
+  <!-- Visuals for Player  -->
+  <div class="visual">
+    <h1 id="title">MIA</h1>
+    <h2 id="artist">Fleslit</h2>
+    <!--#poster-->
+    <div id="poster">
+        <div id="albumImage"></div>
+        <!-- progress bar -->
+        <div class="progressBar" title="progress bar">
+            <div class="progress"></div>
+        </div>
+    </div>
+    <!-- Controls for the player -->
+    <div class="controls">
+      <div class="controlButton" id="previous" title="Previous song"></div>
+      <div class="controlButton" id="play" title="Play"></div>
+      <div class="controlButton" id="stop" title="Stop"></div>
+      <div class="controlButton" id="random" title="Random song"></div>
+      <div class="controlButton" id="next" title="Next song"></div>
+
+      <div class="controlButton" id="volumeDown" title="Decrease volume"></div>
+      <div id="volumeDiv" title="Volume">
+        <div id="volumeBar">
+          <div id="volumeLevel"></div>
+        </div>
+      </div>
+      <div class="controlButton" id="volumeUp" title="Increase volume"></div>
+    </div>
+  </div>
+
+  <!-- Playlist -->
+  <div class="playlist">
+    <div id="autoplay" title="Autoplay"></div>
+    <h1>Playlist:</h1>
+    <p class="playlistItem">Fleslit - MIA</p>
+    <!-- <p class="playlistItem">Beethoven - Fur Elise</p>
+    <p class="playlistItem">Beethoven - Moonlight Sonata</p> -->
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="script_for_jukebox.js" charset="utf-8"></script>
+</body>
+</html>

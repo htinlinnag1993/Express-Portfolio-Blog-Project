@@ -43,7 +43,12 @@
     <br>
       <textarea name="body" rows="8" cols="80" placeholder="Body"></textarea>
     </br>
-    <input type="date" name="date" placeholder="Date">
+    <input type="radio" id="track" name="track" value="track"> Spotify Music(Demo)<br>
+    <!-- <input type="radio" name="video" value="video"> Youtube Video<br>
+    <input type="radio" name="map" value="map"> Google Map<br> -->
+    <div class="rbChoice">
+    </div>
+    <!-- <input type="date" name="date" placeholder="Date"> -->
     <input type="submit" value="Post it!">
   </form>
   <!-- Contact Box -->
@@ -51,5 +56,10 @@
     <!-- change the html a href to route bcoz we start to use Heroku Server -->
     <p><a href='contactInfo'>Contact</a></p>
   </div>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="script_for_blog.js" charset="utf-8"></script>
 </body>
 </html>
