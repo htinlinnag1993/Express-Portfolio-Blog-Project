@@ -1,5 +1,5 @@
 $(document).ready(()=>{
-  $('#d3').on("click", function(){
+  $('#d5').on("click", function(){
     // boxesAppear();
     animateRed();
     animateGreen();

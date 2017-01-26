@@ -32,7 +32,7 @@
 
   ul {
     float: right;
-    padding-left: 800px;
+    padding-left: 750px;
   }
 
   h1 {
@@ -182,6 +182,10 @@
   }
 
   #d4{
+    background-color: grey;
+  }
+
+  #d5{
     background-color: grey;
   }
 }
