@@ -156,6 +156,10 @@
     height: 50px;
   }
 
+  .box3{
+    display: none;
+  }
+
   #d1{
     background-color: #f00;
   }
