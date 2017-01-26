@@ -169,27 +169,31 @@
   }*/
 
   #d1{
-    background-color: grey;
+    background-color: black;
     /*background-color: #f00;*/
   }
 
   #d2{
-    background-color: grey;
+    background-color: black;
     /*background-color: #0f0;*/
   }
 
   #d3{
-    /*the uppermost box*/
-    background-color: grey;
+    background-color: black;
     /*background-color: #00f;*/
   }
 
   #d4{
-    background-color: grey;
+    background-color: black;
   }
 
   #d5{
     background-color: grey;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
   }
 }
 
