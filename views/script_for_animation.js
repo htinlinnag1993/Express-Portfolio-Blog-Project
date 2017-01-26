@@ -25,5 +25,6 @@ function animateBlue(){
 }
 
 function animateBlog(){
+  console.log("Hi");
   $('#d4').animate({top: Math.floor(Math.random()*100) + "%", left: Math.floor(Math.random()*100) + "%"}, 3000, animateBlog);
 }
