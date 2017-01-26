@@ -32,7 +32,7 @@
 
   ul {
     float: right;
-    padding-left: 700px;
+    padding-left: 800px;
   }
 
   h1 {
@@ -179,6 +179,10 @@
     /*the uppermost box*/
     background-color: grey;
     /*background-color: #00f;*/
+  }
+
+  #d4{
+    background-color: grey;
   }
 }
 
