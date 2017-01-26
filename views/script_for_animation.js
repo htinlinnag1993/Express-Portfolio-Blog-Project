@@ -1,15 +1,15 @@
 $(document).ready(()=>{
-  $(#ani_click).on("click", function(){
-    boxesAppear();
+  $('#d1').on("click", function(){
+    // boxesAppear();
     animateRed();
     animateGreen();
     animateBlue();
   });
 });
 
-function boxesAppear(){
-  $('.test').css({display: 'block'});
-}
+// function boxesAppear(){
+//   $('.test').css({display: 'block'});
+// }
 
 function animateRed(){
   $('#d1').animate({top: Math.floor(Math.random()*100) + "%", left: Math.floor(Math.random()*100) + "%"}, 3000, animateRed);
